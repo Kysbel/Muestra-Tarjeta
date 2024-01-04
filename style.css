@@ -42,8 +42,8 @@ font-size: 40px;
 
 @media (min-width:350px) and (max-width:833px){
     h1{
-    padding: 0px 120px;
-    font-size: 40px; 
+    padding: 0px 8px;
+    font-size: 30px; 
     }
 } 
 
@@ -53,13 +53,13 @@ padding-top: 15px;
 padding-bottom: 35px;
 }
 
-/* @media (min-width:350px) and (max-width:833px){
+@media (min-width:350px) and (max-width:833px){
     h2{
-        font-size:23px ;
+        font-size:24px ;
         padding-top: 15px;
-        padding: 10px 117px;
+        /* padding: 10px 117px; */
     }
-} */
+} 
 
 img{
 background-size: 80px;
@@ -91,6 +91,15 @@ p{
 font-size: 25px;
 padding-top: 30px;
 padding-bottom: 15px;
+}
+
+
+@media (min-width:350px) and (max-width:833px){
+    p{
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 15px; 
+    }
 }
 
 
