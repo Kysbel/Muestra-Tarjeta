@@ -102,7 +102,6 @@ padding-bottom: 15px;
     }
 }
 
-
 br{
 margin: auto;
 }
@@ -121,15 +120,16 @@ margin: auto;
 border: 2px;
 border-radius: 20px;
 padding: 8px;
-background-color: rgb(154, 85, 218);
-/* background-color: rgb(9, 54, 133); */
+background-color: rgb(255, 222, 89);
+/* background-color: rgb(154, 85, 218); */
 font-size: 20px;
 cursor: pointer;
-color: white;
+color: #001250;
 }    
 
 .Whatsapp:hover{
-    background-color: rgb(155, 62, 192);
+    color: #fb4444;
+    /* background-color: rgb(155, 62, 192); */
 }
 
 .llamada{
@@ -137,8 +137,8 @@ border: 2px;
 border-radius: 20px;
 padding: 8px;
 /* background-color: antiquewhite; */
-background-color: rgb(154, 85, 218);
-color: white;
+background-color: rgb(255, 222, 89) ;
+color:#001250;
 font-size: 20px;
 margin-top: 15px;
 cursor: pointer;
@@ -146,22 +146,36 @@ cursor: pointer;
 }
 
 .llamada:hover{
-    background-color: rgb(155, 62, 192);
+            color: #fb4444;
 }
 
 .ubicación{
 border: 2px;
 border-radius: 20px;
 padding: 8px;
-background-color: rgb(154, 85, 218);
-color: white;
+background-color: rgb(255, 222, 89);
+color: #001250;
 font-size: 20px;
 margin-top: 15px;
 cursor: pointer;
 }
 
 .ubicación:hover{
-    background-color: rgb(155, 62, 192);
+   color: #fb4444;
+}
+
+.img_logo{
+    height: 380px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+@media (min-width:350px) and (max-width:833px){
+    .img_logo{
+        height: 300px;
+    }
 }
 
 iframe{
@@ -179,17 +193,21 @@ audio{
 footer{
 width: 100%;
 height: auto;
-margin-top: 25px;
 text-align: center;
-background-color: rgb(80, 255, 162); 
-margin-top: 65px;
-
+background-color:rgb(255, 222, 89);
+color: #001250;
+/* background-color: rgb(80, 255, 162);  */
 }
 
 footer p{
 font-size: 22px;
 }
 
+a{
+    color: #FF3131;
+}
+
 footer:hover{
-background-color: rgb(240, 197, 41);
+background-color: #001250;
+color: white;
 }
